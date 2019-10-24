@@ -1,17 +1,17 @@
-fcc3bbb05073d305540c7eb390dd3bf6 *DESCRIPTION
+213bb6d1c17192fb86286a67aacf7d00 *DESCRIPTION
 3c9d0d57121a3e1a7b85c888afa86af8 *NAMESPACE
 ecb3a075fa4398cd952be2451ac6c806 *NEWS.md
-639935f10d64fef9eb442f8cb54840ac *R/RcppExports.R
+090a876b2d72968677f4f7f2ecc1df34 *R/RcppExports.R
 76aa2efbff5e5d836203ecaf8146ab8b *R/Stats.R
 f64903fe49034703c02401db8bf1d23d *R/funktionen.R
 e7aa86bb8482b658ab531faec39281b9 *R/plots.R
 529d8098df7cdcfab7a12f7c69a0d914 *R/run.R
 182b0d7ec2a4b6ce57d74dbbdf3a374f *R/zzz.R
 c51165e801a359fb11822822acbc293b *README.md
-1e7ca40a582c36dcf8de0a3cdb8f913e *build/vignette.rds
+882973e307042246fbefc841a12ea26c *build/vignette.rds
 e6fec5b3090766a4e7d9699174ee4f4e *inst/doc/detectRUNS.vignette.R
 136f88bcb312b8c28c7e0aec0ea867f8 *inst/doc/detectRUNS.vignette.Rmd
-d330e8711ee537895bb92bcfcce985b1 *inst/doc/detectRUNS.vignette.html
+d37c2c1fdcdd566e8f68ba0c10747b34 *inst/doc/detectRUNS.vignette.html
 d28d4c459393899309d2c68a4276d6ef *inst/extdata/Kijas2016_Sheep_subset.consecutive.csv
 a1598ff26e9d01569f44ab4642562895 *inst/extdata/Kijas2016_Sheep_subset.map
 36e30bf261732665bfd1208c00815517 *inst/extdata/Kijas2016_Sheep_subset.ped
@@ -19,9 +19,9 @@ e01becb8a9dec2eba9d3f3135a56a590 *inst/extdata/Kijas2016_Sheep_subset.sliding.cs
 fa02c8aba1b0ebd1ed535705147f3fab *man/Froh_inbreeding.Rd
 eea25e59a63d86dd476adf1f6f92f2e2 *man/Froh_inbreedingClass.Rd
 882d45c0635eded8c3f95cb729bc2590 *man/chromosomeLength.Rd
-953c94e3f9d8ec7f6b287ea71c2c3224 *man/consecutiveRUNS.run.Rd
+5d65ce6e06ed3f8e44c29a802581995f *man/consecutiveRUNS.run.Rd
 dc5ae10df5d327972db1aebb5b2e49a5 *man/consecutiveRuns.Rd
-408ca56d821f1c2cf9585528c58db277 *man/consecutiveRunsCpp.Rd
+ea3646e90410031d5ea349a8cbac2fc3 *man/consecutiveRunsCpp.Rd
 2179a96f2823159c84e53de5ef1ea8c3 *man/createRUNdf.Rd
 021a5bc29ef75fa6fa07ac75290d4613 *man/findOppositeAndMissing.Rd
 092fbba479f44f5b738619612f1bb7c1 *man/genoConvert.Rd
@@ -31,8 +31,8 @@ d084bdef4969a092369ffcb6c0ef2baa *man/heteroZygotTestCpp.Rd
 02c37089c3f6d0bdf981212531a800b6 *man/homoZygotTest.Rd
 582983e4e505e5a196a93fcada0e968b *man/homoZygotTestCpp.Rd
 90f1244ac348725d814f822f78bb34e9 *man/pedConvertCpp.Rd
-f826abbfd5c3cc83664e6ee91caae96b *man/plot_DistributionRuns.Rd
-cacca259264a0ad70067d2211b02435d *man/plot_InbreedingChr.Rd
+bfa5584cd27fd5b8045590770b38db64 *man/plot_DistributionRuns.Rd
+696eb64b3a96e22686f20928e4211928 *man/plot_InbreedingChr.Rd
 4273e3f1468b0f96ceb8e6d45ff20f2e *man/plot_PatternRuns.Rd
 498db44b91bc6eba82c53d8d35f10895 *man/plot_Runs.Rd
 aa1acaffda0a71e7508dd33aac392f91 *man/plot_SnpsInRuns.Rd
@@ -42,7 +42,7 @@ a628ffc3266469500d6dabf394089d74 *man/plot_StackedRuns.Rd
 5ee612cb55634a445ca1fbb602bcead3 *man/readExternalRuns.Rd
 021455b7ac00d52da4cbbb2a310ef655 *man/readPOPCpp.Rd
 5316d2d7c928ece49b68aaed95225aec *man/reorderDF.Rd
-8996f5f59775d8c55f421a83a786e4a3 *man/slidingRUNS.run.Rd
+9f88013f900fe1e687522d575fcd8737 *man/slidingRUNS.run.Rd
 6be248067e26cf571621fa5b05c4101b *man/slidingRuns.Rd
 dfdde654117e349333358008284d26ff *man/slidingWindow.Rd
 cfb3461a6b1ffa9ebb1fa422ebd43199 *man/slidingWindowCpp.Rd
@@ -54,7 +54,7 @@ e0c7293205444752a4c9382fa177d2a4 *man/snpInsideRunsCpp.Rd
 ed854b7d579c0587e344787ac9a751ad *man/tableRuns.Rd
 b25a5b3fed4958a93eb7d16338ac21b0 *man/writeRUN.Rd
 6f0cd568ac9955e4475a93783cba01dc *src/RcppExports.cpp
-701f5da7ca728be7dcace9aa10654242 *src/functions.cpp
+3d228340869a56a2f1c43b2cc82e1ce3 *src/functions.cpp
 101dd90c85eca7a465e501a9239d9eb9 *tests/testthat.R
 5598ff942e214524bd15eb41a39158dc *tests/testthat/test.ROHet.consecutive.csv
 b2a56c396e49834acb3dafc6b2f7c6a5 *tests/testthat/test.ROHet.sliding.csv
@@ -64,3 +64,4 @@ bf353dabb61676495b001e525fc713b3 *tests/testthat/test.raw
 31598d1c864098d36f8faacd7ef81665 *tests/testthat/test_functions.R
 f4766bb59e821498aa45ab16a9da67c8 *tests/testthat/test_run.R
 136f88bcb312b8c28c7e0aec0ea867f8 *vignettes/detectRUNS.vignette.Rmd
+cbd1c042071fd29fcdf805394c7cc6bc *vignettes/rog.png
